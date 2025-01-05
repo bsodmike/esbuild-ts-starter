@@ -8,6 +8,6 @@
     "outDir": "dist",            // Output directory
     "sourceMap": true            // Enables source maps
   },
-  "include": ["src/**/*.ts"],    // Files to include
+  "include": ["src/**/*.tsx"],    // Files to include
   "exclude": ["node_modules"]    // Files to exclude
 }

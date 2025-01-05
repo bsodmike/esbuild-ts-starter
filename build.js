@@ -1,8 +1,9 @@
 import { build } from 'esbuild';
 
 build({
-  entryPoints: ['src/index.ts'],
+  entryPoints: ['src/index.tsx'],
   bundle: true,
+  minify: false,
   outfile: 'dist/bundle.js',
   platform: 'node', // or 'browser'
   format: 'cjs',    // or 'esm'
