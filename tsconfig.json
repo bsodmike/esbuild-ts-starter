@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",          // ES version to compile to
+    "module": "ESNext",          // Module system
+    "strict": true,              // Enable strict type checking
+    "esModuleInterop": true,     // Allows import of CommonJS modules
+    "skipLibCheck": true,        // Skips type checking for node_modules
+    "outDir": "dist",            // Output directory
+    "sourceMap": true            // Enables source maps
+  },
+  "include": ["src/**/*.ts"],    // Files to include
+  "exclude": ["node_modules"]    // Files to exclude
+}
